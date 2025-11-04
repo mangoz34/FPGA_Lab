@@ -1,0 +1,84 @@
+# Reading pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:42:38 on Oct 15,2025
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:42:38 on Oct 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:42:38 on Oct 15,2025
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:42:38 on Oct 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work mux4_1_testbench 
+# Start time: 22:42:38 on Oct 15,2025
+# Loading sv_std.std
+# Loading work.mux4_1_testbench
+# Loading work.mux4_1
+# Loading work.mux2_1
+# ** Error: Cannot open macro file: mux4_1_wave.do
+# Error in macro ./runlab.do line 18
+# Cannot open macro file: mux4_1_wave.do
+#     while executing
+# "do mux4_1_wave.do"
+add wave -position end  sim:/mux4_1_testbench/i00
+add wave -position end  sim:/mux4_1_testbench/i01
+add wave -position end  sim:/mux4_1_testbench/i10
+add wave -position end  sim:/mux4_1_testbench/i11
+add wave -position end  sim:/mux4_1_testbench/sel0
+add wave -position end  sim:/mux4_1_testbench/sel1
+add wave -position end  sim:/mux4_1_testbench/out
+add wave -position 5  sim:/mux4_1_testbench/i00
+add wave -position 6  sim:/mux4_1_testbench/i01
+add wave -position 7  sim:/mux4_1_testbench/i10
+add wave -position 8  sim:/mux4_1_testbench/i11
+add wave -position 9  sim:/mux4_1_testbench/sel0
+add wave -position 10  sim:/mux4_1_testbench/sel1
+add wave -position 11  sim:/mux4_1_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/stlp/Desktop/Lab/Lab1/lab1-1.3/mux4_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:54:36 on Oct 15,2025
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:54:36 on Oct 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:54:36 on Oct 15,2025
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:54:36 on Oct 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:54:37 on Oct 15,2025, Elapsed time: 0:11:59
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work mux4_1_testbench 
+# Start time: 22:54:37 on Oct 15,2025
+# Loading sv_std.std
+# Loading work.mux4_1_testbench
+# Loading work.mux4_1
+# Loading work.mux2_1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 23:05:54 on Oct 15,2025, Elapsed time: 0:11:17
+# Errors: 0, Warnings: 0
